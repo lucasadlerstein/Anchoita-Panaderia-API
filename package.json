@@ -1,0 +1,30 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API for Anchoita Web Menu",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js",
+    "pm2start": "pm2 start index.js"
+  },
+  "keywords": [
+    "anchoita",
+    "menu"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.1",
+    "mariadb": "^2.5.2",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.6",
+    "pm2": "^4.5.5",
+    "sequelize": "^6.3.5",
+    "shortid": "^2.2.16"
+  }
+}
